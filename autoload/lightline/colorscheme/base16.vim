@@ -33,4 +33,9 @@ let s:p.inactive.right  = [ [ s:base01, s:base00 ] ]
 let s:p.normal.error    = [ [ s:base07, s:base08 ] ]
 let s:p.normal.warning  = [ [ s:base07, s:base09 ] ]
 
+let s:p.tabline.left    = [ [ s:base05, s:base02 ] ]
+let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
+let s:p.tabline.right   = [ [ s:base05, s:base02 ] ]
+let s:p.tabline.tabsel  = [ [ s:base02, s:base0A ] ]
+
 let g:lightline#colorscheme#base16#palette = lightline#colorscheme#flatten(s:p)
