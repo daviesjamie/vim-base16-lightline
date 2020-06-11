@@ -14,7 +14,7 @@ let s:base0B = [ '#' . get(g:, 'base16_gui0B', 'A1B56C'),  2 ] " green
 let s:base0C = [ '#' . get(g:, 'base16_gui0C', '86C1B9'),  6 ] " teal
 let s:base0D = [ '#' . get(g:, 'base16_gui0D', '7CAFC2'),  4 ] " blue
 let s:base0E = [ '#' . get(g:, 'base16_gui0E', 'BA8BAF'),  5 ] " pink
-let s:base0F = [ '#' . get(g:, 'base16_gui0F', 'A16946'), 16 ] " brown
+let s:base0F = [ '#' . get(g:, 'base16_gui0F', 'A16946'), 17 ] " brown
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
