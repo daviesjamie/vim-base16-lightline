@@ -1,20 +1,20 @@
-let s:base00 = [ '#181818',  0 ] " black
-let s:base01 = [ '#282828', 18 ]
-let s:base02 = [ '#383838', 19 ]
-let s:base03 = [ '#585858',  8 ]
-let s:base04 = [ '#B8B8B8', 20 ]
-let s:base05 = [ '#D8D8D8',  7 ]
-let s:base06 = [ '#E8E8E8', 21 ]
-let s:base07 = [ '#F8F8F8', 15 ] " white
+let s:base00 = [ '#' . get(g:, 'base16_gui00', '181818'),  0 ] " black
+let s:base01 = [ '#' . get(g:, 'base16_gui01', '282828'), 18 ]
+let s:base02 = [ '#' . get(g:, 'base16_gui02', '383838'), 19 ]
+let s:base03 = [ '#' . get(g:, 'base16_gui03', '585858'),  8 ]
+let s:base04 = [ '#' . get(g:, 'base16_gui04', 'B8B8B8'), 20 ]
+let s:base05 = [ '#' . get(g:, 'base16_gui05', 'D8D8D8'),  7 ]
+let s:base06 = [ '#' . get(g:, 'base16_gui06', 'E8E8E8'), 21 ]
+let s:base07 = [ '#' . get(g:, 'base16_gui07', 'F8F8F8'), 15 ] " white
 
-let s:base08 = [ '#AB4642',  1 ] " red
-let s:base09 = [ '#DC9656', 16 ] " orange
-let s:base0A = [ '#F7CA88',  3 ] " yellow
-let s:base0B = [ '#A1B56C',  2 ] " green
-let s:base0C = [ '#86C1B9',  6 ] " teal
-let s:base0D = [ '#7CAFC2',  4 ] " blue
-let s:base0E = [ '#BA8BAF',  5 ] " pink
-let s:base0F = [ '#A16946', 17 ] " brown
+let s:base08 = [ '#' . get(g:, 'base16_gui08', 'AB4642'),  1 ] " red
+let s:base09 = [ '#' . get(g:, 'base16_gui09', 'DC9656'), 16 ] " orange
+let s:base0A = [ '#' . get(g:, 'base16_gui0A', 'F7CA88'),  3 ] " yellow
+let s:base0B = [ '#' . get(g:, 'base16_gui0B', 'A1B56C'),  2 ] " green
+let s:base0C = [ '#' . get(g:, 'base16_gui0C', '86C1B9'),  6 ] " teal
+let s:base0D = [ '#' . get(g:, 'base16_gui0D', '7CAFC2'),  4 ] " blue
+let s:base0E = [ '#' . get(g:, 'base16_gui0E', 'BA8BAF'),  5 ] " pink
+let s:base0F = [ '#' . get(g:, 'base16_gui0F', 'A16946'), 17 ] " brown
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
